@@ -1,0 +1,39 @@
+[
+	{
+		"id":1,
+		"image":"/assets/img/team/vidya.png",
+		"name":"Vidya Ravichandran",
+		"designation":"CEO",
+		"url":"/vidya-ravichandran",
+		"intro":"<p>A creative person who loves arts and crafts of any kind!!</p><p>An Engineering Graduate from BITS, Pilani and an ex-software engineer with around 6 years of experience in the IT industry. Founder of Aydiv Crafts, <a target=_blank href=/vidya-ravichandran>Read more..</a></p>",
+		"linkedInUrl":"https://www.linkedin.com/in/vidyaravichandran/"
+	},
+	{
+		"id":2,
+		"image":"/assets/img/team/naveen.png",
+		"name":"Naveen Krishnamurthy",
+		"designation":"CTO",
+		"url":"/naveen-krishnamurthy",
+		"intro":"<p>I am a Technologist and currently I manage my three startups LadderMinds (Consulting and Product Building), Acodeidea (Evolving Digital Transformation) and WeThe5Pilots (AeroScience Engineering and Education on <a target=_blank href=/naveen-krishnamurthy>Read more..</a></p>",
+		"linkedInUrl":"https://www.linkedin.com/in/naveenieus/"
+	},
+	{
+		"id":3,
+		"image":"/assets/img/team/giri.png",
+		"name":"Giriprabhu Seshadri",
+		"designation":"Head Engineer",
+		"url":"/giriprabhu-seshadri",
+		"intro":"<p>Giriprabhu Seshadri heads the Engineering vertical at the company. He is an Aeronautical Engineer and his interests are in the field of structures. He balances his time between breaking the barriers to engineer solutions <a target=_blank href=/giriprabhu-seshadri>Read more..</a></p>",
+		"linkedInUrl":"https://www.linkedin.com/in/giriprabhu/"
+	}
+	,
+	{
+		"id":4,
+		"image":"/assets/img/team/gopalakrishnan.png",
+		"name":"Gopalakrishnan R",
+		"designation":"Software Engineer",
+		"url":"https://www.linkedin.com/in/r-gopalakrishnan/",
+		"intro":"",
+		"linkedInUrl":"https://www.linkedin.com/in/r-gopalakrishnan/"
+	}
+]

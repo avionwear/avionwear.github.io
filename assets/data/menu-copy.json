@@ -1,0 +1,37 @@
+[
+	{
+		"id":1,
+		"menuName":"Home",
+		"url":"/home"
+	},
+	{
+		"id":2,
+		"menuName":"About",
+		"url":"/about"
+	},
+	{
+		"id":3,
+		"menuName":"Team",
+		"url":"/team"
+	},
+	{
+		"id":4,
+		"menuName":"Gallery",
+		"url":"/gallery"
+	},
+	{
+		"id":5,
+		"menuName":"Media",
+		"url":"/media"
+	},
+	{
+		"id":6,
+		"menuName":"Product",
+		"url":"/products"
+	},
+	{
+		"id":7,
+		"menuName":"Contact",
+		"url":"/contact"
+	}
+]

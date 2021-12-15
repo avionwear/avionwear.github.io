@@ -1,0 +1,22 @@
+[
+	{
+		"id":1,
+		"menuName":"ABOUT",
+		"url":"/about"
+	},
+	{
+		"id":2,
+		"menuName":"BADGES",
+		"url":"/product/badges"
+	},
+	{
+		"id":3,
+		"menuName":"MAGNETS",
+		"url":"/product/magnets"
+	},
+	{
+		"id":7,
+		"menuName":"CONTACT",
+		"url":"/contact"
+	}
+]

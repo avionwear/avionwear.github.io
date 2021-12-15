@@ -1,0 +1,255 @@
+/*************************************************
+    @author R.Gopalakrishnan
+    Developed on 12/Oct/2021
+    Application CSS V1.0.0
+******************************************************/
+/*************************************************
+
+    Features newly added:
+    --------------------
+    Font family @font-face,
+    Zooming object,
+    Scroll indicator (horizontal,vertical),
+    Error page,
+    Button animation,
+    Text decoration,
+    Icon hover
+******************************************************/
+
+
+/*
+    Damion font added
+*/
+@font-face {
+    font-family: damionFont;
+    src: url(/assets/font/Damion-Regular.ttf);
+    font-display: swap;
+}
+
+/*
+    Ephesis font added
+*/
+@font-face {
+    font-family: ephesisFont;
+    src: url(/assets/font/Ephesis-Regular.ttf);
+}
+
+/*
+    Page title
+*/
+.page-title {
+    font-family: damionFont, cursive;
+    /*opacity: 0.1;*/
+    font-weight: 500;
+    font-size: 1.3rem;
+
+}
+
+/*
+    zoom
+*/
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+/*
+    scroll indicator
+*/
+.scroll-progress-bar {
+    /*margin-bottom: 70px;*/
+    width: 0%;
+    height: 4px;
+    background-color: #003b5c;
+    position: fixed;
+    left: 0px;
+    top: 0%;
+}
+
+/*
+    scroll bar
+*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #003b5c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #003b5c;
+}
+
+
+/*
+    Error page CSS
+*/
+
+.page_404 {
+    padding: 40px 0;
+    background: #fff;
+    font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+    width: 100%;
+}
+
+.four_zero_four_bg {
+
+    background-image: url("../img/404/error.gif");
+    height: 400px;
+    background-position: center;
+}
+
+
+.four_zero_four_bg h1 {
+    font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+    font-size: 80px;
+}
+
+.link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.contant_box_404 {
+    margin-top: -50px;
+}
+
+/*
+    button animation
+*/
+button {
+    --color: #87CEEB;
+    font-family: inherit;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 8em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 0px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 0.9rem;
+    border-radius: 6px;
+    font-weight: 200;
+    color: var(--color);
+}
+
+button:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+button:hover {
+    color: #fff;
+}
+
+button:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+}
+
+button:hover:before {
+    top: -30px;
+    left: -30px;
+}
+
+button:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+}
+
+/*
+    Text Decoration
+ */
+
+.text-decoration {
+    text-decoration: line-through;
+}
+
+
+/*
+    icon hover effect
+*/
+.hover-fx {
+    font-size: 36px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 15px;
+    width: 80px;
+    height: 80px;
+    line-height: 84px;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    color: #44d9e6;
+    background-color: rgb(68 217 230 / 16%);
+    transition: 300ms;
+}
+
+.hover-fx:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content: '';
+    box-sizing: content-box;
+    box-shadow: 0 0 0 3px #44d9e6;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 300ms;
+}
+
+.hover-fx:hover {
+    background-color: #fff;
+    color: #fff;
+}
+
+.hover-fx:hover:after {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+
+.img-fluid-logo {
+    max-width: 50%;
+    height: auto;
+
+}

@@ -1,0 +1,20 @@
+[{
+	"id":1,
+	"faq":"<details><summary>What if my order arrives damaged?</summary><p>In the rare case of a damaged order, there is nothing you need to worry about. If part or all of your order is damaged in transit, give our Customer Helpline team a call at <a href='tel:+91 94456 80500'>(+91) 94456 80500</a>, who are by the phones 10:00 AM-6:00 PM (IST) Monday to Friday, or email us at <a href='mailto:info@ladderminds.com'>info@ladderminds.com</a> and we will ship a replacement in no time.</p></details>"
+},
+{
+	"id":2,
+	"faq":"<details><summary>What happens if my goods arrive late?</summary><p>If your order doesn't arrive by the intended date because of a dispatch glitch or with the courier, please give our Customer Helpline team a call us at <a href='tel:+91 94456 80500'>(+91) 94456 80500</a>, who are by the phones 10:00 AM-6:00 PM (IST) Monday to Friday, or email us at <a href='mailto:info@ladderminds.com'>info@ladderminds.com</a>.</p></details>"
+},
+{
+	"id":3,
+	"faq":"<details><summary>In how many days will my order be dispatched?</summary><p>The order will be dispatched within 2-3 business days of receiving the confirmed order.</p></details>"
+},
+{
+	"id":4,
+	"faq":"<details><summary>Can I cancel the order after the payment?</summary><p> No! Products once shipped, cannot be cancelled</p></details>"
+},
+{
+	"id":5,
+	"faq":"<details><summary>Can I return/replace the product once i open it?</summary><p>Yes, you can return / replace the product only if it is not the AvionWear you had ordered. If the contents in the AvionWear are misplaced or damaged, we will ship the materials and the entire charge will be borne by AvionWear</p></details>"
+}]

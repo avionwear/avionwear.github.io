@@ -1,0 +1,19 @@
+[{
+	"id":1,
+	"image":"/assets/img/carousel/4.JPG",
+	"alt":"First slide"
+},{
+	"id":2,
+	"image":"/assets/img/carousel/1.JPG",
+	"alt":"Second slide"
+},
+{
+	"id":3,
+	"image":"/assets/img/carousel/2.JPG",
+	"alt":"Third slide"
+},
+{
+	"id":4,
+	"image":"/assets/img/carousel/3.JPG",
+	"alt":"Forth slide"
+}]
