@@ -13,7 +13,7 @@ $(document).ready(function() {
 
             $.each(data, function(key, value) {
 
-                indexProductList += '<div class="col-lg-3 col-md-6 text-center mt-2">'
+                indexProductList += '<div class="col-lg-4 col-md-6 text-center mt-2">'
 
                 indexProductList += '<div class="card" style="width: 16rem;">'
                 indexProductList += '<a href="' + value.url + '" >'

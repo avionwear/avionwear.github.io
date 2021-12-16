@@ -4,30 +4,44 @@
 $(document).ready(function() {
 
     $.getJSON("/assets/data/carousel.json",
+        // $.getJSON("/assets/data/products.json",
         function(data) {
             var carousel = ''
+
 
             carousel += '<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">'
             carousel += '<div class="carousel-inner">'
             carousel += '<div class="carousel-item active">'
             carousel += '<img class="d-block w-100" src="' + data[0].image + '" alt="' + data[0].alt + '">'
             carousel += '<div class="carousel-caption d-none d-md-block">'
-            carousel += '<h3>F4 Phantom</h3>'
+            carousel += '<h3>' + data[0].name + '</h3>'
             carousel += '<p>'
-            carousel += '<a href="https://pages.razorpay.com/pl_IXeaNtsuGnuwbX/view" target="_blank" rel="noopener" >'
+            carousel += '<a href="' + data[0].buy + '" target="_blank" rel="noopener" >'
             carousel += '<button>Buy</button></a></p>'
             carousel += '</div>'
             carousel += '</div>'
-
 
             $.each(data, function(key, value) {
                 if (value.id > 1) {
                     carousel += '<div class="carousel-item">'
                     carousel += '<img class="d-block w-100" src="' + value.image + '" alt="' + value.alt + '">'
+                    carousel += '<div class="carousel-caption d-none d-md-block">'
+                    carousel += '<h3>' + value.name + '</h3>'
+                    carousel += '<p>'
+                    carousel += '<a href="' + value.buy + '" target="_blank" rel="noopener" >'
+                    carousel += '<button>Buy</button></a></p>'
+                    carousel += '</div>'
                     carousel += '</div>'
                 }
-
             });
+            // $.each(data, function(key, value) {
+            //     if (value.id > 1) {
+            //         carousel += '<div class="carousel-item">'
+            //         carousel += '<img class="d-block w-100" src="' + value.image + '" alt="' + value.alt + '">'
+            //         carousel += '</div>'
+            //     }
+
+            // });
 
             carousel += '<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">'
             carousel += '<span class="carousel-control-prev-icon" aria-hidden="true"></span>'

@@ -1,19 +1,27 @@
 [{
 	"id":1,
+	"name":"F4 Phantom",
 	"image":"/assets/img/carousel/4.JPG",
+	"buy":"https://pages.razorpay.com/pl_IXeaNtsuGnuwbX/view",
 	"alt":"First slide"
 },{
 	"id":2,
+	"name":"Tornado",
 	"image":"/assets/img/carousel/1.JPG",
+	"buy":"https://pages.razorpay.com/pl_IXdpQbBdRjzIqv/view",
 	"alt":"Second slide"
 },
 {
 	"id":3,
+	"name":"F16 Fighting Falgon",
 	"image":"/assets/img/carousel/2.JPG",
+	"buy":"https://pages.razorpay.com/pl_IXf3RBuUc5AAn5/view",
 	"alt":"Third slide"
 },
 {
 	"id":4,
+	"name":"Sea Harrier",
 	"image":"/assets/img/carousel/3.JPG",
+	"buy":"https://pages.razorpay.com/pl_IXfK8rRwJN1plr/view",
 	"alt":"Forth slide"
 }]
