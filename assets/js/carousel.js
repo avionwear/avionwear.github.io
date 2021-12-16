@@ -13,7 +13,9 @@ $(document).ready(function() {
             carousel += '<img class="d-block w-100" src="' + data[0].image + '" alt="' + data[0].alt + '">'
             carousel += '<div class="carousel-caption d-none d-md-block">'
             carousel += '<h3>F4 Phantom</h3>'
-            carousel += '<p><a href="#" ><button>Buy</button></a></p>'
+            carousel += '<p>'
+            carousel += '<a href="https://pages.razorpay.com/pl_IXeaNtsuGnuwbX/view" target="_blank" rel="noopener" >'
+            carousel += '<button>Buy</button></a></p>'
             carousel += '</div>'
             carousel += '</div>'
 
