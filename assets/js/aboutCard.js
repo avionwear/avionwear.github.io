@@ -9,7 +9,7 @@ $(document).ready(function() {
 
             $.each(data, function(key, value) {
 
-                about += '<div class="col-lg-4 col-md-6">'
+                about += '<div class="col-lg-6 col-md-6">'
                 about += '<div class="mt-5 shadow p-3 mb-5 bg-body rounded zoom">'
                 about += '<div class="text-center">'
 
@@ -32,6 +32,12 @@ $(document).ready(function() {
                 about += value.desc
                 about += '</p>'
                 about += '<br>'
+                if (value.id === 1) {
+                    about += '<p class="text-center"><a href="/product/badges/" target="_blank" rel="noopener"><button>Shop Now</button></a></p>'
+                }
+                else{
+                    about += '<p class="text-center"><a href="/product/magnets/" target="_blank" rel="noopener"><button>Shop Now</button></a></p>'
+                }
                 // about += '</ul>'
                 about += '</div>'
                 about += '</div>'

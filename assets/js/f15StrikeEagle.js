@@ -6,30 +6,26 @@ $(document).ready(function() {
     $.getJSON("/assets/data/f15StrikeEagle.json",
         function(data) {
 
-            var product = '',
-                description = '',
+              var product = '',
                 details = '',
                 slides = '';
 
             $.each(data, function(key, value) {
                 var id = value.id;
+                product += '<div class=column>'
                 product += '<img class="demo cursor" src="' + value.url + '" style="width:100%" onclick="currentSlide(' + id + ')" alt="The Woods">'
+                product += '</div>'
                 if (id > 1) {
                     slides += '<div class="mySlides">'
-                    slides += '<div class="numbertext">' + id + '</div>'
                     slides += '<img src="' + value.url + '" style="width:100%">'
                     slides += '</div>'
                     slides += '<a class="prev" onclick="plusSlides(-1)">❮</a>'
                     slides += '<a class="next" onclick="plusSlides(1)">❯</a>'
                 }
+
             });
 
-
-            description += data[0].desc
-
-            details += '<h5 class="mt-3">About this item</h5>'
-            details += '<br/>'
-
+            details += data[0].desc
             details += '<p><strong>Size : </strong>' + data[0].productDimensions + '</p>'
             details += '<p><strong>Material : </strong>' + data[0].material + '</p>'
             details += '<p><strong>Manufacturer : </strong>' + data[0].manufacturer + ' </p>'
@@ -41,11 +37,9 @@ $(document).ready(function() {
             details += '</strong></p>'
             details += '<a href="' + data[0].buy + '" target="_blank" rel="noopener" ><button>Buy</button></a>'
 
-
             $('#product').append(product);
             $('#slides').append(slides);
             $('#product-details').append(details);
-            $('#description').append(description);
 
 
         });

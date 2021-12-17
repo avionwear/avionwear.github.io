@@ -4,10 +4,11 @@
 
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/products.json",
+    $.getJSON("/assets/data/magnets.json",
         function(data) {
             var bestSeller = ''
-            var viewMore = '<a href="/product/badges/" target="_blank" rel="noopener">View more<span class="mx-2"><i class="fas fa-arrow-right"></i></span></a>'
+            // var viewMore = '<button href="/product/badges/" target="_blank" rel="noopener">View more<span class="mx-2"><i class="fas fa-arrow-right"></i></span></button>'
+            var viewMore = '<a href="/product/badges/" target="_blank" rel="noopener"><button>View more</button></a>'
 
             $.each(data, function(key, value) {
 

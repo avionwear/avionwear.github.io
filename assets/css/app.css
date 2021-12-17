@@ -145,7 +145,7 @@
     button animation
 */
 button {
-    --color: #87CEEB;
+    --color: #fff;
     font-family: inherit;
     text-transform: uppercase;
     display: inline-block;
@@ -155,12 +155,13 @@ button {
     margin: 0px;
     position: relative;
     overflow: hidden;
-    border: 2px solid var(--color);
+    border: 2px solid #87CEEB;
     transition: color .5s;
     z-index: 1;
     font-size: 0.9rem;
     border-radius: 6px;
-    font-weight: 200;
+    font-weight: 300;
+    background-color: #87CEEB;
     color: var(--color);
 }
 
@@ -168,14 +169,14 @@ button:before {
     content: "";
     position: absolute;
     z-index: -1;
-    background: var(--color);
+    background: #fff;
     height: 150px;
     width: 200px;
     border-radius: 50%;
 }
 
 button:hover {
-    color: #fff;
+    color: #b0d4e3;
 }
 
 button:before {
@@ -290,7 +291,7 @@ img {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: auto;
   padding: 50px;
   margin-top: -50px;
@@ -341,7 +342,7 @@ img {
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 24.66%;
 }
 
 /* Add a transparency effect for thumnbail images */
