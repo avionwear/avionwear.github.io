@@ -292,7 +292,7 @@ img {
   position: absolute;
   top: 40%;
   width: auto;
-  padding: 16px;
+  padding: 50px;
   margin-top: -50px;
   color: white;
   font-weight: bold;
@@ -311,7 +311,8 @@ img {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  /*background-color: rgba(0, 0, 0, 0.8);*/
+  text-decoration: none;
 }
 
 /* Number text (1/3 etc) */
