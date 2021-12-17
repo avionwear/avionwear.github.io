@@ -1,8 +1,8 @@
 {
-
     "Tornado":
     {
         "id": 1,
+        "name":"Tornado",
         "imageUrl": "/assets/img/badges/tornnado/1.JPG",
         "color": "",
         "size": "",
@@ -15,6 +15,7 @@
     "F4 Phantom":
     {
         "id": 2,
+        "name":"F4 Phantom",
         "imageUrl": "/assets/img/badges/f4-phantom/1.JPG",
         "color": "",
         "size": "",
@@ -27,6 +28,7 @@
     "F16 Fighting Falgon":
     {
         "id": 3,
+        "name":"F16 Fighting Falgon",
         "imageUrl": "/assets/img/badges/f16-fighting-falgon/1.JPG",
         "color": "",
         "size": "",
@@ -39,6 +41,7 @@
     "Sea Harrier":
     {
         "id": 4,
+        "name":"Sea Harrier",
         "imageUrl": "/assets/img/badges/sea-harrier/1.JPG",
         "color": "",
         "size": "",
@@ -51,6 +54,7 @@
     "Dassault Mirage":
     {
         "id": 5,
+        "name":"Dassault Mirage",
         "imageUrl": "/assets/img/badges/dassault-mirage/1.JPG",
         "color": "",
         "size": "",
@@ -63,7 +67,8 @@
 
     "C17 Globe Master":
     {
-        "id": 7,
+        "id": 6,
+        "name":"C17 Globe Master",
         "imageUrl": "/assets/img/badges/c17-globe-master/1.JPG",
         "color": "",
         "size": "",
@@ -76,7 +81,8 @@
     },
     "F15 Strike Eagle":
     {
-        "id": 8,
+        "id": 7,
+        "name":"F15 Strike Eagle",
         "imageUrl": "/assets/img/badges/f15-strike-eagle/1.JPG",
         "color": "",
         "size": "",
@@ -89,7 +95,8 @@
     },
     "F35 Jsf":
     {
-        "id": 9,
+        "id": 8,
+        "name":"F35 Jsf",
         "imageUrl": "/assets/img/badges/f35-jsf/1.JPG",
         "color": "",
         "size": "",
@@ -102,7 +109,8 @@
     },
     "MIG 31":
     {
-        "id": 12,
+        "id": 9,
+        "name":"MIG 31",
         "imageUrl": "/assets/img/badges/mig-31/1.JPG",
         "color": "",
         "size": "",
