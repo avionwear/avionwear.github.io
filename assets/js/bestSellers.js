@@ -16,7 +16,7 @@ $(document).ready(function() {
 
                     bestSeller += '<div class="col-lg-3 col-md-6 text-center mt-2">'
 
-                    bestSeller += '<div class="card" style="width: 16rem;">'
+                    bestSeller += '<div class="card" style="width: 18rem;">'
                     bestSeller += '<a href="' + value.url + '" >'
                     bestSeller += '<img class="card-img-top" src="'
                     bestSeller += value.imageUrl
