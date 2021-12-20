@@ -147,21 +147,21 @@
 button {
     --color: #fff;
     font-family: inherit;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     display: inline-block;
-    width: 9em;
+    width: 10em;
     height: 2.6em;
     line-height: 2.5em;
     margin: 0px;
     position: relative;
     overflow: hidden;
-    border: 2px solid #87CEEB;
+    border: 2px solid #007bff;
     transition: color .5s;
     z-index: 1;
     font-size: 0.9rem;
     border-radius: 6px;
-    font-weight: 300;
-    background-color: #87CEEB;
+    font-weight: 700;
+    background-color: #007bff;
     color: var(--color);
 }
 
@@ -176,7 +176,7 @@ button:before {
 }
 
 button:hover {
-    color: #b0d4e3;
+    color: #007bff;
 }
 
 button:before {
