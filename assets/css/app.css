@@ -356,3 +356,38 @@ img {
 .demo:hover {
     opacity: 1;
 }
+
+header.masterhead {
+    padding-top: 4rem;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+header.masterhead h1 {
+    font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    header.masterhead {
+        /*height: 100vh;*/
+        /*min-height: 40rem;*/
+        padding-top: 4.5rem;
+        padding-bottom: 0;
+    }
+
+    header.masterhead p {
+        font-size: 1.15rem;
+    }
+
+    header.masterhead h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    header.masterhead h1 {
+        font-size: 3.5rem;
+    }
+}
