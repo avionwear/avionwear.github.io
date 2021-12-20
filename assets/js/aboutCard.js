@@ -33,10 +33,16 @@ $(document).ready(function() {
                 about += '</p>'
                 about += '<br>'
                 if (value.id === 1) {
-                    about += '<p class="text-center"><a href="/product/badges/" target="_blank" rel="noopener"><button>Shop Now</button></a></p>'
+                    about += '<p class="text-center">'
+                    about += '<a href="/product/badges/" target="_blank" rel="noopener">'
+                    about += '<button>Shop Now <i class="fas fa-shopping-cart"></i></button>'
+                    about += '</a></p>'
                 }
                 else{
-                    about += '<p class="text-center"><a href="/product/magnets/" target="_blank" rel="noopener"><button>Shop Now</button></a></p>'
+                    about += '<p class="text-center">'
+                    about += '<a href="/product/magnets/" target="_blank" rel="noopener">'
+                    about += '<button>Shop Now <i class="fas fa-shopping-cart"></i></button>'
+                    about += '</a></p>'
                 }
                 // about += '</ul>'
                 about += '</div>'
