@@ -26,7 +26,7 @@ $(document).ready(function() {
                     carousel += '<div class="carousel-item">'
                     carousel += '<img class="d-block w-100" src="' + value.image + '" alt="' + value.alt + '">'
                     carousel += '<div class="carousel-caption d-md-block">'
-                    carousel += '<h1 class="text-uppercase">' + value.name + '</h1>'
+                    carousel += '<h2 class="text-uppercase">' + value.name + '</h2>'
                     carousel += '<p>'
                     carousel += '<a href="' + value.buy + '" target="_blank" rel="noopener" >'
                     carousel += '<button>Buy</button></a></p>'

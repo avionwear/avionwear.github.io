@@ -19,7 +19,7 @@ $(document).ready(function() {
                 indexProductList += '<a href="' + value.url + '">'
                 indexProductList += '<img class="card-img-top" src="'
                 indexProductList += value.imageUrl
-                indexProductList += '" alt="Card image cap">'
+                indexProductList += '" alt="Card image cap" data-toggle="tooltip" data-placement="top" title="Click to know more about this product">'
                 indexProductList += '</a>'
 
                 indexProductList += '<div class="card-body">'

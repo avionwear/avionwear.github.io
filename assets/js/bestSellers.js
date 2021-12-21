@@ -20,7 +20,7 @@ $(document).ready(function() {
                     bestSeller += '<a href="' + value.url + '" >'
                     bestSeller += '<img class="card-img-top" src="'
                     bestSeller += value.imageUrl
-                    bestSeller += '" alt="Card image cap">'
+                    bestSeller += '" alt="Card image cap" data-toggle="tooltip" data-placement="top" title="Click to know more about this product">'
                     bestSeller += '</a>'
 
                     bestSeller += '<div class="card-body">'

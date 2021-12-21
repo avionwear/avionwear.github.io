@@ -21,7 +21,7 @@ $(document).ready(function() {
                 indexProductList += '<a href="' + data[descendingOrderData[i]].url + '" >'
                 indexProductList += '<img class="card-img-top" src="'
                 indexProductList += data[descendingOrderData[i]].imageUrl
-                indexProductList += '" alt="Card image cap">'
+                indexProductList += '" alt="Card image cap" data-toggle="tooltip" data-placement="top" title="Click to know more about this product">'
                 indexProductList += '</a>'
 
                 indexProductList += '<div class="card-body">'
