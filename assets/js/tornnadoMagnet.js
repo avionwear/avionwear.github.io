@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/tornnado.json",
+    $.getJSON("/assets/data/tornnadoMagnet.json",
         function(data) {
 
             var product = '',

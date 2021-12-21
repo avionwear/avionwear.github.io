@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/dassaultMirage.json",
+    $.getJSON("/assets/data/dassaultMirageMagnet.json",
         function(data) {
 
             var product = '',

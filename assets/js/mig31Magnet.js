@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/mig31.json",
+    $.getJSON("/assets/data/mig31Magnet.json",
         function(data) {
 
              var product = '',

@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/f4Phantom.json",
+    $.getJSON("/assets/data/f4PhantomMagnet.json",
         function(data) {
             var product = '',
                 details = '',

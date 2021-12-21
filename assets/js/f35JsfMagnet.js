@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/f35Jsf.json",
+    $.getJSON("/assets/data/f35JsfMagnet.json",
         function(data) {
 
            var product = '',

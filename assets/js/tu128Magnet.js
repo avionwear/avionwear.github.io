@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/tu128.json",
+    $.getJSON("/assets/data/tu128Magnet.json",
         function(data) {
 
             var tu128 = '',

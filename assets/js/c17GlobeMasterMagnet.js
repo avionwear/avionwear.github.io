@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/c17GlobeMaster.json",
+    $.getJSON("/assets/data/c17GlobeMasterMagnet.json",
         function(data) {
 
          var product = '',

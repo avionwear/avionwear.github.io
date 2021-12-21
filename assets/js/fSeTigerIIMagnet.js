@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/fSETigerII.json",
+    $.getJSON("/assets/data/fSETigerIIMagnet.json",
         function(data) {
 
             var fSe = '',

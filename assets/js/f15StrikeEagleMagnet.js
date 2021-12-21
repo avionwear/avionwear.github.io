@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/f15StrikeEagle.json",
+    $.getJSON("/assets/data/f15StrikeEagleMagnet.json",
         function(data) {
 
               var product = '',

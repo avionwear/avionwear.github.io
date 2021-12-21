@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/seaHarrier.json",
+    $.getJSON("/assets/data/seaHarrierMagnet.json",
         function(data) {
 
             var product = '',

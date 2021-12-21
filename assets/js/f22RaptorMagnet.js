@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/f22Raptor.json",
+    $.getJSON("/assets/data/f22RaptorMagnet.json",
         function(data) {
 
             var f22 = '',

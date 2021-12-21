@@ -3,7 +3,7 @@
 */
 $(document).ready(function() {
 
-    $.getJSON("/assets/data/f16FightingFalgon.json",
+    $.getJSON("/assets/data/f16FightingFalgonMagnet.json",
         function(data) {
 
             var product = '',
