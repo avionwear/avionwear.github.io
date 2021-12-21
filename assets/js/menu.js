@@ -7,6 +7,7 @@ $(document).ready(function() {
     $.getJSON("/assets/data/menu.json",
         function(data) {
             var menu = ''
+            var subTitle ='The attitude to be worn…!'
 
             $.each(data, function(key, value) {
                 menu += '<li class="nav-item">'
@@ -17,6 +18,7 @@ $(document).ready(function() {
             });
 
             $('#nav-menu').append(menu);
+            $('.sub-title').append(subTitle);
         });
 
 });
