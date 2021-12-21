@@ -2,7 +2,7 @@
 {
     "id": 1,
     "url": "/assets/img/badges/sea-harrier/1.JPG",
-    "desc":"<h5 class='mt-3 text-center'>Sea Harrier</h5><hr class='divider'><p>The British Aerospace Sea Harrier is a naval short take-off and vertical landing/vertical take-off and landing jet fighter, reconnaissance and attack aircraft. It is the second member of the Harrier Jump Jet family developed.</p>",
+    "desc":"<h5 class='mt-3 text-center'>Sea Harrier</h5><hr class='divider'><p>The British Aerospace Sea Harrier is a naval short take-off and vertical landing/vertical take-off and landing jet fighter, reconnaissance and attack aircraft. It is the second member of the Harrier Jump Jet family developed.<a href='https://en.wikipedia.org/wiki/British_Aerospace_Sea_Harrier' target='blank'> read more...</a></p><br/>",
     "color": "",
     "material":"Wood",
     "productDimensions": "2 x 2 inches",

@@ -2,7 +2,7 @@
 {
     "id": 1,
     "url": "/assets/img/badges/f35-jsf/1.JPG",
-    "desc": "<h5 class='mt-3 text-center'>F-35 Joint Strike Force</h5><hr class='divider'><p>The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, all-weather stealth multirole combat aircraft that is intended to perform both air superiority and strike missions. It is also able to provide electronic warfare and intelligence, surveillance, and reconnaissance capabilities.</p>",
+    "desc": "<h5 class='mt-3 text-center'>F-35 Joint Strike Force</h5><hr class='divider'><p>The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, all-weather stealth multirole combat aircraft that is intended to perform both air superiority and strike missions. It is also able to provide electronic warfare and intelligence, surveillance, and reconnaissance capabilities.<a href='https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II' target='blank'> read more...</a></p><br/>",
     "color": "",
     "material":"Wood",
     "productDimensions": "2 x 2 inches",
