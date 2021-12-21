@@ -1,12 +1,12 @@
 [{
 	"id":1,
 	"name":"BADGES",
-	"desc":"<p><span class=mr-2><i class='fas fa-check text-primary'></i></span>These are wearable badges that suit your outfit.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>This airplane badge is a great gift for your friends or loved one.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>AvionWear also have a large range of airline-specific pin badges which will delight the aircraft enthusiast in your life.</p>",
+	"desc":"<p><span class=mr-2><i class='fas fa-check text-primary'></i></span>Wearable badges that suit your outfit.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>Exquisite gift for your friends and loved ones.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>Wide range of airline-specific pin badges that will delight the aircraft enthusiast in you.</p>",
 	"url":"/product/badges"
 },
 {
 	"id":2,
 	"name":"MAGNETS",
-	"desc":"<p><span class=mr-2><i class='fas fa-check text-primary'></i></span>These are fridge magnets which kindle the creativity of your home.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>Fridge magnets are a great way to put up reminders and decorate your refrigerator.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>AvionWear offers a great collection of fridge magnets to suit your style and decor.",
+	"desc":"<p><span class=mr-2><i class='fas fa-check text-primary'></i></span>Fridge magnets that bring in a creative vibe to your abode.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>A great way to put up reminders and notes on your refrigerator.</p><p><span class=mr-2><i class='fas fa-check text-primary'></i></span>A great collection of fridge magnets that suit your style and decor.</p>",
 	"url":"/product/magnets"
 }]

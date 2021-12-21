@@ -7,11 +7,11 @@ $(document).ready(function() {
     const FORM_NAME = 'CONTACT';
 
     var form = '',
-        desc = 'For customization write us here';
+        desc = 'For any customizations, write to us via the below form';
 
     form += '<div class="row">'
     form += '<div class="col-lg-12">'
-    form += '<h4 class="text-center page-title">'
+    form += '<h4 class="text-center">'
     form += FORM_NAME
     form += '</h4>'
     form += '<hr class="divider">'

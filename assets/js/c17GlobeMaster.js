@@ -30,9 +30,9 @@ $(document).ready(function() {
             details += '<p><strong>Material : </strong>' + data[0].material + '</p>'
             details += '<p><strong>Manufacturer : </strong>' + data[0].manufacturer + ' </p>'
             details += '<p><strong>Country Of Origin : </strong>' + data[0].countryOfOrigin + '</p>'
-            details += '<p>M.R.P. : ₹ <span class="text-muted text-decoration">'
+            details += '<p>M.R.P. : ₹ <span class="text-muted text-decoration mr-2"><i>'
             details += data[0].mrp
-            details += '</span><strong> '
+            details += '</i></span><strong>'
             details += data[0].price
             details += '</strong></p>'
             details += '<a href="' + data[0].buy + '" target="_blank" rel="noopener" ><button>Buy</button></a>'
